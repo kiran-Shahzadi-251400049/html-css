@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Services | Smart Design Studio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-slate-50 text-slate-900">
+
+<!--HEADER -->
+
+<header class="p-auto bg-gradient-to-r from-emerald-500 to-emerald-700 rounded-t-lg shadow-lg sticky">
+
+    <div class="container mx-auto flex items-center text-white font-bold">
+      <img  src="logo-removebg-preview (1).png" class="w-20 h-20" alt="logo">
+      <h1>Smart Design Studio</h1>
+
+       <!-- Hamburger Icon (mobile) -->
+    <button id="menu-btn" class="block md:hidden text-3xl focus:outline-none">
+      ☰
+    </button>
+
+    <!-- Navigation -->
+       <nav class="ml-80 space-x-8  ">
+         <a href="index.html" class="hover:text-emerald-900">Home</a>
+         <a href="about.html" class="hover:text-emerald-900">About</a>
+         <a href="services.html" class="hover:text-emerald-900">Services</a>
+         <a href="contact.html" class="hover:text-emerald-900">Contact</a>
+       </nav>
+    </div>
+
+       <!-- Mobile Menu -->
+  <div id="mobile-menu" class="hidden md:hidden bg-green-600 text-white space-y-2 px-6 py-4">
+    <a href="index.html" class="hover:text-emerald-900">Home</a>
+         <a href="about.html" class="hover:text-emerald-900">About</a>
+         <a href="services.html" class="hover:text-emerald-900">Services</a>
+         <a href="contact.html" class="hover:text-emerald-900">Contact</a>
+  </div>
+</header>
+
+<script>
+  const menuBtn = document.getElementById('menu-btn');
+  const mobileMenu = document.getElementById('mobile-menu');
+
+  menuBtn.addEventListener('click', () => {
+    mobileMenu.classList.toggle('hidden');
+  });
+</script>
+
+</header> 
+
+<main>
+
+<!-- Hero Section -->
+  <section class="bg-gradient-to-r from-emerald-500 to-emerald-700 text-white py-20 text-center rounded-b-lg">
+    <h1 class="text-4xl font-bold mb-4">Our Professional Services</h1>
+    <p class="max-w-2xl mx-auto text-lg">
+      We provide creative, functional, and timeless design solutions tailored to meet every client's needs.
+    </p>
+  </section>
+
+ <!-- Architecture Design -->
+  <section class="container mx-auto py-16 px-6 flex flex-col md:flex-row items-center gap-10">
+    <div class="md:w-1/2">
+      <img src="1fc374e8-ac1b-4b1a-89b3-714a84261525.jpg" alt="Architecture Design" class="rounded-2xl shadow-lg">
+    </div>
+    <div class="md:w-1/2 space-y-4">
+      <h2 class="text-3xl font-bold text-emerald-900">Architectural Design</h2>
+      <p class="text-slate-900 leading-relaxed">
+        Our architectural design services combine creativity and practicality to produce aesthetically pleasing structures. 
+        We focus on sustainable materials, innovative layouts, and a deep understanding of spatial balance to bring your vision to life.
+      </p>
+    </div>
+  </section>
+
+   <!-- Interior Design -->
+  <section class="bg-white py-16 px-6">
+    <div class="container mx-auto flex flex-col md:flex-row-reverse items-center gap-10">
+      <div class="md:w-1/2">
+        <img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c" alt="Interior Design" class="rounded-2xl shadow-lg">
+      </div>
+      <div class="md:w-1/2 space-y-4">
+        <h2 class="text-3xl font-bold text-emerald-900">Interior Design</h2>
+        <p class="text-slate-900 leading-relaxed">
+          Our interior design team crafts spaces that balance beauty and functionality. From color palettes to textures and lighting,
+          we ensure every detail reflects your style while enhancing comfort and usability.
+        </p>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Renovation & Remodeling -->
+  <section class="container mx-auto py-16 px-6 flex flex-col md:flex-row items-center gap-10">
+    <div class="md:w-1/2">
+      <img src="3af3e85f-d18c-4e8b-ad4e-5263398fe9d2.jpg" alt="Renovation" class="rounded-2xl shadow-lg">
+    </div>
+    <div class="md:w-1/2 space-y-4">
+      <h2 class="text-3xl font-bold text-emerald-900">Renovation & Remodeling</h2>
+      <p class="text-slate-900 leading-relaxed">
+        We transform existing spaces with thoughtful redesigns and careful craftsmanship. 
+        Whether it’s a full home renovation or a modern office makeover, our process ensures quality, precision, and elegance.
+      </p>
+    </div>
+  </section>
+
+
+  <!-- Landscape Design -->
+  <section class="bg-white py-16 px-6">
+    <div class="container mx-auto flex flex-col md:flex-row-reverse items-center gap-10">
+      <div class="md:w-1/2">
+        <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb" alt="Landscape Design" class="rounded-2xl shadow-lg">
+      </div>
+      <div class="md:w-1/2 space-y-4">
+        <h2 class="text-3xl font-bold text-emerald-900">Landscape Design</h2>
+        <p class="text-slate-900 leading-relaxed">
+          Our landscape designs connect architecture with nature — creating inviting outdoor areas that blend greenery, functionality, and style. 
+          From garden layouts to outdoor seating zones, we make every inch meaningful.
+        </p>
+      </div>
+    </div>
+  </section>
+
+
+ <!-- Project Management -->
+  <section class="container mx-auto py-16 px-6 flex flex-col md:flex-row items-center gap-10">
+    <div class="md:w-1/2">
+      <img src="https://images.unsplash.com/photo-1557804506-669a67965ba0" alt="Project Management" class="rounded-2xl shadow-lg">
+    </div>
+    <div class="md:w-1/2 space-y-4">
+      <h2 class="text-3xl font-bold text-emerald-900">Project Management</h2>
+      <p class="text-slate-900 leading-relaxed">
+        Our experienced team ensures each project runs smoothly from concept to completion.
+        With detailed planning, coordination, and transparent communication, we deliver projects on time and within budget.
+      </p>
+    </div>
+  </section>
+
+  <!-- Call to Action -->
+  <section class="bg-gradient-to-r from-emerald-500 to-emerald-700 text-center text-white py-16 rounded-t-lg">
+    <h2 class="text-3xl font-bold mb-4">Ready to Start Your Project?</h2>
+    <p class="mb-6">Let’s bring your ideas to life with expert design and execution.</p>
+    <a href="contact.html" class="bg-emerald-700 px-6 py-3 rounded-lg text-white font-semibold hover:bg-emerald-900 transition">Contact Us</a>
+  </section>
+
+</main>
+
+<!-- Footer -->
+<footer>
+   
+<footer class="bg-gradient-to-r from-emerald-500 to-emerald-700 text-white py-10 rounded-b-lg ">
+  <div class="container mx-auto px-8 grid md:grid-cols-3 gap-8">
+    
+    <!-- Column 1: Logo & About -->
+    <div>
+      <div class="flex items-center space-x-2 mb-4">
+        <img src="logo-removebg-preview (1).png" alt="Logo" class="w-16 h-16">
+        <h2 class="text-2xl font-bold">Smart Design Studio</h2>
+      </div>
+      <p class="text-gray-100 text-sm leading-relaxed">
+        We craft architectural and interior designs that blend creativity, functionality, and sustainability — transforming spaces into living art.
+      </p>
+    </div>
+
+    <!-- Column 2: Quick Links -->
+    <div>
+      <h3 class="text-xl font-semibold mb-4 text-center">Quick Links</h3>
+      <ul class="space-y-2 text-gray-100 text-center">
+        <li class="hover:text-emerald-900 transition"> <a href="index.html">Home</a></li>
+        <li class="hover:text-emerald-900 transition"> <a href="about.html">About</a></li>
+        <li class="hover:text-emerald-900 transition"> <a href="services.html">Services</a></li>
+        <li class="hover:text-emerald-900 transition"> <a href="contact.html">Contact</a></li>
+      </ul>
+      </div>
+      
+    <!-- Column 3: Contact Info -->
+    <div>
+      <h3 class="text-xl font-semibold mb-4">Get in Touch</h3>
+      <ul class="space-y-2 text-gray-100 text-sm">
+        <li><i class="fa-solid fa-location-dot text-white mr-2"></i> Lahore, Pakistan</li>
+        <li><i class="fa-solid fa-phone text-white mr-2"></i><a href="tel:+92 300 1234567" class="hover:text-emerald-900">+92 300 1234567</a> </li>
+        <li><i class="fa-solid fa-envelope text-white mr-2"></i><a href="mailto:info@smartdesignstudio.com" class="hover:text-emerald-900"> info@smartdesignstudio.com</a></li>
+      </ul>
+      <div class="flex space-x-4 mt-4">
+        <a href="add link here" class="hover:text-gray-200"><i class="fab fa-facebook-f"></i></a>
+        <a href="add link here" class="hover:text-gray-200"><i class="fab fa-instagram"></i></a>
+        <a href="add link here" class="hover:text-gray-200"><i class="fab fa-linkedin-in"></i></a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Bottom line -->
+  <div class="border-t border-green-300 mt-8 pt-4 text-center text-sm text-gray-100">
+    © 2025 Smart Design Studio. All Rights Reserved.
+  </div>
+</footer>
+
+
+</body>
+</html>
