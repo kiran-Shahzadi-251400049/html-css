@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+<style>
+form {
+  width: 300px;
+  margin: auto;
+  background-color: lightblue;
+}
+</style>
+
+</head>
+<body">
+    <br><br>
+
+
+    <form>
+        <fieldset>
+            <legend>Admission form</legend>
+
+            <label>Name:</label><br>
+            <input type="text" placeholder="Enter your name" name="name" autofocus><br>
+
+            <label>Father's Name:</label><br>
+            <input type="text" placeholder="Enter your father's name" name="father's name"><br>
+
+            <label>Email:*</label><br>
+            <input type="email" name="email" placeholder="abc@gmail.com" required><br>
+
+            <label>Date of Birth:*</label><br>
+            <input type="date" name="dob" required min="1998-12-31" max="2000-12-31"><br>
+
+            <label>Gender:</label><br>
+            <input type="radio" name="gender" value="male">Male<br>
+            <input type="radio" name="gender" value="female">Female<br>
+
+            <label>Previous Degrees:</label><br>
+            <input type="checkbox" name="degree1" value="matric">Matriculation <br>
+            <input type="checkbox" name="degree1" value="inter">Intermediate <br>
+            <input type="checkbox" name="degree1" value="matric">Graduate <br>
+            <input type="checkbox" name="degree1" value="matric">Post Graduatae <br>
+
+            <label>Password:</label><br>
+            <input type="password" name="password" maxlength="10"> <br><br>
+
+            <input type="submit" name="submit" value="Sign Up">
+            <input type="reset" name="reset" value="Reset"><br><br>
+
+            <input type="submit" value="Submit" onclick="alert('Form submitted successfully!')">
+
+
+        </fieldset>
+    </form>
+
+    <br><br><br>
+
+    <form>
+        <fieldset>
+            <legend>Salary Increment Application</legend>
+
+            <label>Your Name:</label><br>
+            <input type="text" autofocus ><br>
+
+            <label>Your current Salary:*</label><br>
+            <input type="number" required><br>
+
+            <label>Salary range:</label><br>
+            <input type="range" ><br>
+
+            <label>Salary you want:*</label><br>
+            <input type="number" required><br>
+
+            <label>Salary range:</label><br>
+            <input type="range"><br>
+
+            <label>Month of joining:</label><br>
+            <input type="month" readonly><br><br>
+
+            <label>Identity color of your batch:</label><br>
+            <input type="color" name="color"><br><br>
+
+            <label>Upload your Salary slip:</label><br>
+            <input type="file"> <br><br>
+
+            <label>Your Phone number:</label><br>
+            <input type="tel"> <br><br>
+
+            <label>Paste your portfolio's link here:</label><br>
+            <input type="url" disabled><br><br>
+
+            <label>Your Email:*</label><br>
+            <input type="email" name="email" placeholder="abc@gmail.com" ><br>
+
+            <label>Select Gender:</label><br>
+            <input type="radio" name="gender" value="male" checked>Male<br>
+            <input type="radio" name="gender" value="female">Female<br><br>
+
+
+            <label>Your account's Password:</label><br>
+            <input type="password" name="password" maxlength="10"> <br><br>
+
+            <input type="button" name="submit" value="Sign Up"><br><br>
+
+	<label>Choose an option:</label>
+	<select>
+  		<option selected>Option 1</option>
+  		<option>Option 2</option>
+  		<option>Option 3</option>
+	</select>
+
+        </fieldset>
+    </form>
+
+
+    <br><br>
+
+
+
+
+
+
+<button class="btn-scale" onclick="alert('Hi :)')">Hover Me</button><br><br>
+
+<style>
+.btn-scale {
+  padding: 10px 20px;
+  background-color: green;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn-scale:hover {
+  transform: scale(1.1); /* slightly bigger */
+}
+</style>
+
+
+
+
+
+<div class="shadow-box" >Hover for shadow</div>
+
+<style>
+.shadow-box {
+  width: 200px;
+  height: 100px;
+  background-color: lightblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.3s;
+}
+
+.shadow-box:hover {
+  box-shadow: 5px 5px 20px gray;
+}
+</style>
+    
+</body>
+</html>
